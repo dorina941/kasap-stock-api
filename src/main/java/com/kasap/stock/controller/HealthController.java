@@ -9,7 +9,7 @@ public class HealthController implements HttpHandler {
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {
-        String response = "Kasap API OK 🚀";
+        String response = "Kasap API OK ";
 
         exchange.sendResponseHeaders(200, response.getBytes().length);
         OutputStream os = exchange.getResponseBody();

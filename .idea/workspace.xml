@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abfce248-32d8-46f3-9410-3ec6682d449d" name="Changes" comment="Initial commit - project setup&#10;conectar servidor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kasap/stock/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kasap/stock/model/Product.java" afterDir="false" />
+    <list default="true" id="abfce248-32d8-46f3-9410-3ec6682d449d" name="Changes" comment="Initial commit - project setup&#10;conectar servidor&#10;Add products endpoint">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kasap/stock/KasapStockApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kasap/stock/KasapStockApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kasap/stock/controller/HealthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kasap/stock/controller/HealthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kasap/stock/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kasap/stock/controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3D4b9Ag5RuWZmCjFyv4Yqd8oETj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -40,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Dorina/IdeaProjects/kasap-stock-api",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -47,15 +53,10 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="KasapStockApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KasapStockApiApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.kasap.stock.KasapStockApiApplication" />
-      <module name="kasap-stock-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kasap.stock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777542087878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit - project setup&#10;conectar servidor&#10;Add products endpoint">
+      <option name="closed" value="true" />
+      <created>1777542980363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777542980363</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit - project setup" />
     <MESSAGE value="Initial commit - project setup&#10;conectar servidor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit - project setup&#10;conectar servidor" />
+    <MESSAGE value="Initial commit - project setup&#10;conectar servidor&#10;Add products endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit - project setup&#10;conectar servidor&#10;Add products endpoint" />
   </component>
 </project>
