@@ -2,10 +2,10 @@ package com.kasap.stock.model;
 
 public class Product {
 
-    private Long id;
-    private String name;
-    private double price;
-    private int stock;
+    private final Long id;
+    private final String name;
+    private final double price;
+    private final int stock;
 
     public Product(Long id, String name, double price, int stock) {
         this.id = id;
