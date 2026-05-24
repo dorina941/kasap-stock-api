@@ -1,28 +1,18 @@
 package com.kasap.stock.controller;
 
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.nio.charset.StandardCharsets;
+import java.util.Map;
 
-public class HealthController implements HttpHandler {
+@RestController
+public class HealthController {
 
-    @Override
-    public void handle(HttpExchange exchange) throws IOException {
-        String response = "{"
-                + "\"status\": \"OK\", "
-                + "\"message\": \"Kasap API funcionando correctamente\""
-                + "}";
-
-        byte[] responseBytes = response.getBytes(StandardCharsets.UTF_8);
-
-        exchange.getResponseHeaders().add("Content-Type", "application/json; charset=UTF-8");
-        exchange.sendResponseHeaders(200, responseBytes.length);
-
-        try (OutputStream os = exchange.getResponseBody()) {
-            os.write(responseBytes);
-        }
+    @GetMapping("/api/health")
+    public Map<String, String> health() {
+        return Map.of(
+                "status", "OK",
+                "message", "Kasap API funcionando correctamente"
+        );
     }
 }
