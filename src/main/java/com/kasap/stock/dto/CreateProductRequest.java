@@ -1,4 +1,12 @@
 package com.kasap.stock.dto;
 
-public record CreateProductRequest(String name, double price, int stock) {
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Positive;
+
+public record CreateProductRequest(
+        @NotBlank String name,
+        @Positive double price,
+        @Min(0) int stock
+) {
 }

@@ -3,6 +3,7 @@ package com.kasap.stock.controller;
 import com.kasap.stock.dto.CreateProductRequest;
 import com.kasap.stock.model.Product;
 import com.kasap.stock.service.ProductService;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -30,7 +31,7 @@ public class ProductController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Product createProduct(@RequestBody CreateProductRequest request) {
+    public Product createProduct(@Valid @RequestBody CreateProductRequest request) {
         return productService.create(request);
     }
 }
