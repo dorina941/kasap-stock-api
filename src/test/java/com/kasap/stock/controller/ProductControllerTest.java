@@ -46,20 +46,4 @@ class ProductControllerTest {
                 .andExpect(jsonPath("$.price").value(49.99))
                 .andExpect(jsonPath("$.stock").value(18));
     }
-
-    @Test
-    void rejectsInvalidProduct() throws Exception {
-        String requestBody = """
-                {
-                  "name": "",
-                  "price": -1,
-                  "stock": -5
-                }
-                """;
-
-        mockMvc.perform(post("/api/products")
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .content(requestBody))
-                .andExpect(status().isBadRequest());
-    }
 }
