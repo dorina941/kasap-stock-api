@@ -7,6 +7,8 @@
     <list default="true" id="abfce248-32d8-46f3-9410-3ec6682d449d" name="Changes" comment="Refactor products to use in-memory list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kasap/stock/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kasap/stock/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kasap/stock/dto/CreateProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kasap/stock/dto/CreateProductRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -92,12 +101,19 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.KasapStockApiApplication">
     <configuration name="KasapStockApiApplication" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.kasap.stock.KasapStockApiApplication" />
       <module name="kasap-stock-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KasapStockApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kasap-stock-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kasap.stock.KasapStockApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,7 +143,7 @@
       <workItem from="1778171232284" duration="3298000" />
       <workItem from="1778415231612" duration="2025000" />
       <workItem from="1778680073678" duration="1325000" />
-      <workItem from="1779615865401" duration="1389000" />
+      <workItem from="1779615865401" duration="1875000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit - project setup">
       <option name="closed" value="true" />
@@ -169,7 +185,71 @@
       <option name="project" value="LOCAL" />
       <updated>1778176870896</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor products to use in-memory list">
+      <option name="closed" value="true" />
+      <created>1779632111674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632111674</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactor products to use in-memory list">
+      <option name="closed" value="true" />
+      <created>1779632125014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632125014</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactor products to use in-memory list">
+      <option name="closed" value="true" />
+      <created>1779632134397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632134397</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactor products to use in-memory list">
+      <option name="closed" value="true" />
+      <created>1779632145548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632145548</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactor products to use in-memory list">
+      <option name="closed" value="true" />
+      <created>1779632157966</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632157966</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactor products to use in-memory list">
+      <option name="closed" value="true" />
+      <created>1779632164269</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632164269</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactor products to use in-memory list">
+      <option name="closed" value="true" />
+      <created>1779632188172</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632188172</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Refactor products to use in-memory list">
+      <option name="closed" value="true" />
+      <created>1779632205575</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632205575</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
